@@ -4751,13 +4751,15 @@ button.close {
   z-index: 10;
 }
 .grid-item,
-.grid-sizer {
+.grid-sizer,
+.service-item {
   width: 100%;
   margin-bottom: 1%;
 }
 @media (min-width: 768px) {
   .grid-item,
-  .grid-sizer {
+  .grid-sizer,
+  .service-item {
     width: 49.5%;
   }
 }
@@ -4767,14 +4769,20 @@ button.close {
     width: 32.633%;
   }
 }
+@media (min-width: 1200px) {
+  .service-item {
+    width: 100%;
+  }
+}
 .gutter-sizer {
   width: 1%;
 }
-.grid-item {
+.grid-item,
+.service-item {
   position: relative;
   display: block;
 }
-.grid-item .project-description {
+.service-item .project-description {
   opacity: 0;
   -webkit-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
@@ -4789,7 +4797,7 @@ button.close {
   margin: 5%;
   text-decoration: none;
 }
-.grid-item .project-description .project-text-holder {
+.service-item .project-description .project-text-holder {
   display: table;
   text-align: center;
   vertical-align: middle;
@@ -4797,7 +4805,7 @@ button.close {
   height: 100%;
   overflow: hidden;
 }
-.grid-item .project-description .project-text-holder .project-text-inner {
+.service-item .project-description .project-text-holder .project-text-inner {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
@@ -4806,7 +4814,7 @@ button.close {
   margin: 0;
   padding: 0;
 }
-.grid-item:hover .project-description {
+.service-item:hover .project-description {
   opacity: 1;
 }
 .section-container-spacer {
