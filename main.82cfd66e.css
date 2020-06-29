@@ -4907,7 +4907,7 @@ main {
   color: #000;
   font-family: Cabin, Helvetica, Arial, sans-serif;
   font-size: 18px;
-  font-weight: 700;
+  /* font-weight: 700; */
   display: block;
   -webkit-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
