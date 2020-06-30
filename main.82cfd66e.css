@@ -285,7 +285,7 @@ html {
   -webkit-tap-highlight-color: transparent;
 }
 body {
-  font-family: Source Sans Pro, Helvetica, Arial, sans-serif;
+  font-family: "Spartan", sans-serif;
   font-size: 14px;
   line-height: 1.78;
   color: #555;
@@ -382,7 +382,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Cabin, Helvetica, Arial, sans-serif;
+  font-family: "Spartan", sans-serif;
   font-weight: 600;
   line-height: 1.1;
   color: #000;
